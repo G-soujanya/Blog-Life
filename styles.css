@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    width: 100%;
+    background-color: black;
+    height: 10%;
+}
+
+#name {
+    background-color: white;
+    height: 30%;
+
+}
+
+#name-full {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#subname {
+    text-align: center;
+    padding-top: 1%;
+    font-weight: bold;
+}
+
+#i {
+    margin-top: 7%;
+    display: block;
+    width: 100%;
+}
+
+#img {
+    position: relative;
+}
+
+#inimg {
+    position: absolute;
+    top: 45%;
+    padding-left: 50px;
+}
+
+.j {
+    color: white;
+    font-size: 30px;
+}
+
+.jf {
+    color: white;
+    font-size: 60px;
+}
+
+.sub {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#girl {
+    width: 98%;
+    margin-left: 10px;
+}
+
+#av {
+    width: 20%;
+    height: 30%;
+}
+
+#avi {
+    display: flex;
+    justify-content: flex-start;
+}
+#three{
+    float: left;
+}
+#sec{
+    padding-right: 5%;
+}
+.girl{
+    width: 380px;
+    margin-top: 20px;
+}
+.girl img{
+    width: 100%;
+}
+.girl p{
+    padding: 10px;
+}
+body{
+    background-color: rgba(10, 10, 10, 0.1);
+}
+#mainthree{
+    display: flex;
+}
+.last{
+    height: 150px;
+    background-color: rgba(10, 10, 10, 0.5);
+}
+.last button{
+    padding: 10px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    margin: 30px;
+}
+@media only screen and (max-width: 600px) {
+    #nav {
+        display: flex;
+        flex-direction: column;
+        height: 10%;
+        float: right;
+        border: 1px solid white;
+        opacity: 0.5;
+    }
+
+    #nav i {
+        border-bottom: 1px solid white;
+    }
+
+    #inimg p {
+        font-size: 50px;
+    }
+
+    #inimg button {
+        width: 100px;
+    }
+    #mainthree{
+        flex-direction: column;
+    }
+    #sec{
+        margin: auto;
+    }
+}
+
+#hat {
+    width: 95%;
+    float: left;
+    background-color: rgba(10, 10, 10, 0.1);
+}
+#p,.ad{
+    height: 60px;
+    line-height: 60px;
+    background-color: black;
+    color: white;
+}
+.row1{
+    display: flex;
+    margin-top: 10px;
+    background-color: white;
+}
+.row1:hover{
+    background-color: rgba(10, 10, 10, 0.1);
+}
+.row1 img{
+    width: 80px;
+    height: 80px;
+}
+#text {
+    height: 130px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+.adh{
+    width: 330px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.1);
+    margin: 10px;
+    margin-left: 20px;
+}
+.tagsr{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#imgs img{
+    padding-left: 13px;
+    width: 180px;
+    height: 150px;
+}
+.tagsr span{
+    background-color: rgba(10, 10, 10, 0.1);
+}
+#text-p {
+    text-align: justify;
+    margin: 10px;
+    background-color: white;
+}
+
+
