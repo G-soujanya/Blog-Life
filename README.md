@@ -1,1 +1,1 @@
-# Blog-Life
+https://g-soujanya.github.io/Blog-Life/
